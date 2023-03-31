@@ -1,9 +1,14 @@
+
+
+/* body format - hour spacing */
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 1;
 }
-
-textarea {
+/* time blocks text area*/
+textarea{
+  text-align:left;
   background: transparent;
   border: none;
   resize: none;
@@ -12,15 +17,23 @@ textarea {
   padding: 10px;
 }
 
-.description {
+
+.description{
   white-space: pre-wrap;
+  border-bottom-style: solid black;
 }
 
-.time-block {
-  border-radius: 15px;
+
+.time-block{
+  text-align: center;
+  border-top: dashed gray;
+  
+  
 }
 
 .row {
+  white-space: pre-wrap; 
+  height: 80px;
   border-top: 1px solid white;
 }
 
@@ -49,11 +62,27 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #06AED5;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+
+/* block containers */
+.container{
+text-align: right;
+}
+
+
+/* Work Day Scheduler Title   */
+.titleOpen {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
 }
