@@ -12,11 +12,17 @@ $(document).ready(function () {
 
 var input9El = document.querySelector("#hour9");
 
+//9 local storage - button
+input9El.value = localStorage.getItem("9amNote");
+saveHour9.addEventListener("click", function store9am() {
+  localStorage.setItem("9amNote", input9El.value);
+});
+
 // var now = dayjs()
 // is essentially the same as calling new Date()
 // 24 clock used to compare time periods.
 var time = new Date().getHours();
-
+console.log(time);
 // add class (color of time box) based on time.
 
 if (time > 9) {
@@ -26,5 +32,3 @@ if (time > 9) {
 } else {
   $("#hour9").addClass("future");
 }
-
-console.log(time);
