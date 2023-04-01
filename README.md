@@ -51,6 +51,4 @@ The following animation demonstrates the application functionality:
 
 
 
-
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./assets/Work Day Scheduler.gif)
+[Demonstration of application Functionality](https://drive.google.com/file/d/1rm6lnFHPlw5_a59clU4nGjH5DergfLah/view?usp=sharing)
