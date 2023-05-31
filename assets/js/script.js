@@ -86,6 +86,13 @@ function store5pm() {
 // 24 clock used to compare time periods.
 var time = new Date().getHours();
 
+const date = new Date() + 1;
+
+for (i = 0; (i = new Date() < 6); i++) {
+  console.log(date[i]);
+}
+
+console.log(`date = ${date}`);
 // add class based on time comparison
 
 if (time > 9) {
